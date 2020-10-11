@@ -100,7 +100,7 @@ BepInEx v4では「config.ini」だったものが、BepInEx v5では「config�
      ```
    - Sybarisを導入したときのように、ゲーム起動時にゲーム画面の他に黒いコンソールウィンドウも表示されるようになる。
    
-7. `BepInEx\config\SybarisLoader.cfg`の以下の箇所を`UnityInjector = Sybaris\UnityInjector`へ変更
+7. `BepInEx\config\org.bepinex.plugins.unityinjectorloader.cfg`の以下の箇所を`UnityInjector = Sybaris\UnityInjector`へ変更
 
    - ```
      ## Location of UnityInjector folder relative to game root
